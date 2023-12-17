@@ -79,7 +79,7 @@ marquee{
 }
 .div-gaz2{
     width: 90%;
-    height: 200px;
+    height: auto;
     margin-left:10px ;
     margin-right:20px ;
     margin-top: 50px;
@@ -127,12 +127,14 @@ margin: 10px;
 @media(max-width:990px){
     header{ 
         width: 90%;
-        height: 200px;
+        height: 100px;
             display: flex;
             justify-content: space-evenly;
-            margin: 40px;
+            margin: 20px;
             padding: 15px;
-            position: fixed;
+        }
+     #icon-2{
+            margin-left: 35px;
         }
     #img-head{
         margin: 3px;
@@ -145,7 +147,6 @@ margin: 10px;
     marquee{
         font-size: 30px;
         width: 100%;
-        margin-top: 10px;
         background-color: red;
         
     }
